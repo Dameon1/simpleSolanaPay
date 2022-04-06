@@ -3,6 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy": "deploy:docs build deploy:apps && gh-pages -d docs",
     "export": "next export",
     "start": "next start"
   },
